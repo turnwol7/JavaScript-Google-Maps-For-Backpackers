@@ -1,0 +1,75 @@
+html {
+  background-color: white;
+  height: 100%;
+}
+
+#button {
+  background-color: yellow;
+  font-size: 2em;
+}
+
+.crimestats{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+  text-align: center;
+  font-size: 2em;
+}
+
+.jsonstats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+  text-align: center;
+  font-size: 2em;
+}
+
+.container {
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-size: 2em;
+  height: 100px;
+  width: 500px;
+}
+
+#map{
+  margin-top: 25px;
+    height:500px;
+    width:100%;
+    border-radius: 2%;
+  }
+
+#rc {
+  display: none;
+}
+
+h1 {
+  text-align: center;
+  font-size: 100px;
+  margin-top: 10px;
+  margin-bottom: -10px;
+}
+
+#stats1 {
+
+  font-size: 20px;
+  font-variant: small-caps;
+  
+}
+
+#stats2 {
+
+  font-size: 20px;
+  font-variant: small-caps;
+  
+}
+
+.statistics {
+  font-size: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  font-variant: small-caps;
+}
+

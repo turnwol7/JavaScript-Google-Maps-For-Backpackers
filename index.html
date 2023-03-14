@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <script src="googlemap.js"></script>
+   
+    <link href="style.css" rel="stylesheet">
+
+    <title>Dart</title>
+   </head>
+
+<body>
+  <h1>DART</h1>
+    
+    <input type="text" id="rc" name="random country" />
+    <input class="container" type="button" value="Roll the Dice!" onclick="initMap();" /> 
+   
+    <!-- Map object -->
+   
+    <div id="map"></div>
+    <div id="csv"></div>
+    <div class="statistics">
+      <div>
+        <h3>Country</h3>
+        <div id="country"></div>
+      </div>
+
+      <div>
+        <h3>Capital</h3>
+        <div id="capital"></div>
+      </div>
+    </div>
+
+    <hr>
+    
+    <div class="jsonstats">
+      <div>
+        <h3>12 eggs in USD</h3>
+        <div id="eggs"></div>
+      </div>
+      <div>
+        <h3>Pint of beer in USD</h3>
+        <div id="beer"></div>
+      </div>
+    </div>
+
+<hr>
+
+    <div class="crimestats">
+      <div>
+        <h3>Pack of cigs in USD</h3>
+        <div id="cigs"></div>
+      </div>
+      <div>
+        <h3>Crime Index (bigger is badder)</h3>
+        <div id="crimerating"></div>
+      </div>
+    </div>
+<hr>
+<!-- <div class="nodedata">
+  <div>
+    <h3>node search</h3>
+    <div id="node">
+    
+
+    </div>
+  </div>
+
+<hr>
+</div> -->
+
+    <script
+    async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQG6R3e1fM9UZy6hO-7pmVewcog6snMyc&callback=initMap&v=weekly"
+    ></script>
+    
+</body>
+</html>
